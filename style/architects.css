@@ -12,10 +12,10 @@
   }
 
   *{
-    margin: 0;
+    /* margin: 0; */
   }
 .btn-primary{
-    
+
 }
 
 
@@ -23,13 +23,15 @@
   /* header style */
   header{
     background-color: rgba(255, 144, 14, 0.10);
-    padding: 50px  240px;
+    /* padding: 50px  240px; */
 
   }
  nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 50px  240px;
+
  }
 
 .nav-title{
@@ -73,4 +75,10 @@ color: #424242
     font-size: 1rem;
     font-weight:400;
 color:#727272 ;
+}
+.banner-img{
+    text-align: center;
+}
+.btn-primary{
+    
 }
